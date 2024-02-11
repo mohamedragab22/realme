@@ -18,7 +18,7 @@
     "enable_center_crop_wallpaper_details": true,
     "enable_exit_dialog": true,
     "enable_rtl_mode": false,
-    "enable_dark_mode_as_default_theme": false
+    "enable_dark_mode_as_default_theme": true
   },
   "ads": {
     "status": true,
@@ -89,13 +89,13 @@
       "banner_favorite": true,
       "interstitial_wallpaper_list": true,
       "rewarded_wallpaper_details": true,
-      "native_wallpaper_list": true,
-      "native_exit_dialog": true,
+      "native_wallpaper_list": false,
+      "native_exit_dialog": false,
       "app_open_ad_on_start": false,
       "app_open_ad_on_resume": false
     },
     "global": {
-      "interstitial_ad_interval": 3,
+      "interstitial_ad_interval": 2,
       "native_ad_index_2_columns": 4,
       "native_ad_index_3_columns": 6,
       "native_ad_style_exit_dialog": "medium",
